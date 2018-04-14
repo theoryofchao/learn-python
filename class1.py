@@ -31,7 +31,7 @@ dawg.print_name
 def some_func(arg1=None, arg2=None, kwarg1=None, kwarg2="abc"):
 
   if kwarg1 != None:
-    print(kwarg1)
+    print(kwarg1) 
   pass
 
 some_func("abc", "def", kwarg1="huehue")
